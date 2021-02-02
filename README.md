@@ -7,7 +7,9 @@ Hello, in October 2020 I aquired a ThinkPad T440P to use as my daily driver.
 
 I got the idea to get T440P from Sebi's Random Tech channel on Youtube (https://www.youtube.com/user/SebisGameReviews).
 
-I also learned alot aboout T440P and got the idea to hackintosh from Wolfgang's Channel (https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg). (i recomend checking both of these out if you are a T440P owner)
+I also learned alot aboout T440P and got the idea to hackintosh from Wolfgang's Channel (https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg).
+
+(i recomend checking both of these out if you are a T440P owner)
 
 On the first day I got the laptop I installed Catalina 10.15.7 with Clover using jloisel's guide (https://github.com/jloisel/t440p).
 
