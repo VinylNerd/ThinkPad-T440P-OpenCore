@@ -108,4 +108,18 @@ this was the fourth card i tried to use, the card is to big so requires being ph
 #### BCM94360CS2
 this is the Apple card which comes from Macbook Airs, its 2x2 same as thinkpad, and fits alot easier than one would think, in order to fit the card you must remove the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:2 link rate 867 on Catalina and Big Sur
 
+Status | Finished
+-- | --
+Test time | 10.17 seconds
+Transferred bytes | 344.93 MB uploaded
+Speed | 284.61 Mbps
+
+## Other
+
+regarding dock, sorry i dont have one i cant test
+
+SD port is not working for me
+
+wake from sleep using bluetooth devices with BCM94360CS2 is not working.
+
 
