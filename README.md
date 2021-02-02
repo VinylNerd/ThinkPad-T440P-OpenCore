@@ -52,7 +52,9 @@ Now you can go through the install.
 ## Generating your own serial and Editing ROM
 
 using GenSMBIOS (https://github.com/corpnewt/GenSMBIOS)
-generate a serial for MacBookPro11,1 i advise against 11,2 as the usb mapping is slightly different.
+generate a serial for MacBookPro11,1
+
+ I advise against 11,2 as the usb mapping is slightly different.
 
 use Plist edit pro, or something else to manually enter the details in the config where it sais YOUR STUFF HERE (as shown in photo) SystemSerialNumber, MLB, and UUID
 
