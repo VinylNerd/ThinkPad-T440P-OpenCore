@@ -26,7 +26,7 @@ LighterEB - https://github.com/lighterEB/ThinkPad-T440p
 Sniki - (https://github.com/Sniki/Lenovo-Thinkpad-T440P-Clover)   
 (https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-t440p-opencore-0-5-9.299277/)
 
-I noticed that all Clover builds used FakeSMC and all Clover builds used VirtualSMC, personally i had some issues with VirtualSMC so i tried using FakeSMC with OpenCore and found it to work much better
+I noticed that all Clover builds used FakeSMC and all OpenCore builds used VirtualSMC, personally i had some issues with VirtualSMC so i tried using FakeSMC with OpenCore and found it to work much better
 
 ## BIOS SETTINGS 
 
