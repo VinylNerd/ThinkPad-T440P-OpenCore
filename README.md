@@ -15,7 +15,7 @@ On the first day I got the laptop I installed Catalina 10.15.7 with Clover using
 
 After doing some research I wanted to try OpenCore so that i could use Big Sur, however I also wanted to see if i could improve performance and or functionality on Catalina.
 
-I also wanted to try all the other T440P builds around so i have tried alot
+I also wanted to try all the other T440P builds around so i have tried alot.
 
 Swanux - https://github.com/swanux/t440p
 
@@ -69,7 +69,7 @@ If you already have MacOS installed, i recomend trying this EFI on a USB first, 
 
 If you don't have MacOS installed, we will cover how to install MacOS on your system.
 
-If you wish to dual boot please use another drive for windows and i suggest disabling the drive with MacOS on it in BIOS while using windows to avoid windows update fucking with the EFI or other parts of MacOS
+If you wish to dual boot please use another drive for windows and i suggest disabling the drive with MacOS on it in BIOS while using windows to avoid windows update messing with the EFI or other parts of MacOS
 
 Follow this guide to learn how create a USB installer - https://www.macworld.co.uk/how-to/bootable-mac-installer-3575875/
 
@@ -80,7 +80,7 @@ Copy the content of the EFI folder provided here with your own Serial ETC on you
 ### Install macOS
 
 Install macOS by booting on the USB key. It takes about 30min. The computer will restart multiple times. Make sure to select Install macOS ... each time. Once installed, choose to boot from local drive in Clover boot menu.
-What's next?
+
 
 To finish the setup, you need to:
 
@@ -108,7 +108,7 @@ this was the third card i tried to use, 2.4GHz and 5GHz work great but max out 4
 this was the fourth card i tried to use, the card is to big so requires being physically cut to fit into the laptop, i made a cut to the card and was able to get it in but it didnt perform as i was likign and didnt show AC link rates so rather than doing more work to fit it properly i stopped, its possible if cut down properly it could work with a 3x3 antenna solution, but because of the price of the card i wouldnt suggest this
 
 #### BCM94360CS2
-this is the Apple card which comes from Macbook Airs, its 2x2 same as thinkpad, and fits alot easier than one would think, in order to fit the card you must remove the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:2 link rate 867 on Catalina and Big Sur
+this is the Apple card which comes from the Macbook Air, its 2x2 same as thinkpad, and fits alot easier than one would think, in order to fit the card you must remove the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:2 link rate 867 on Catalina and Big Sur
 
 Status | Finished
 -- | --
