@@ -1,5 +1,5 @@
 # ThinkPad T440P Hackintosh OpenCore
-![Screen Shot 2021-02-11 at 10 59 53 PM](https://user-images.githubusercontent.com/72950020/107709771-abb02a80-6cbd-11eb-87f6-ad79257461e1.png)
+![Screen Shot 2021-02-11 at 10 59 53 PM](https://user-images.githubusercontent.com/72950020/107712131-c46e0f80-6cc0-11eb-8a36-139938c599ff.png)
 
 ## Intro and Links
 
