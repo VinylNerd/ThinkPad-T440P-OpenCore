@@ -120,6 +120,13 @@ Speed | 284.61 Mbps
 #### BCM94360CS
 this is the Apple card which comes from the Macbook Pro, its 3x3 same , and is bigger than the 2x2 card, in order to fit the card you must make a small cut in the case after removing the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:3 link rate 1300 on Catalina and Big Sur
 
+Status | Finished
+-- | --
+Test time | 10.04 seconds
+Transferred bytes | 377.21 MB uploaded
+Speed | 315.24 Mbps
+
+
 ![IMG_3582](https://user-images.githubusercontent.com/72950020/108794430-a389a200-757d-11eb-88a9-052b9151f2ca.jpg)
 
 
