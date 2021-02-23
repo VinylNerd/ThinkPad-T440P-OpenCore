@@ -118,10 +118,10 @@ Speed | 284.61 Mbps
 
 ## Other
 
-regarding dock, sorry i dont have one i cant test
+Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/shutdown/reboot. however with the current build uploaded it will cause sleep issues ontop of this, i will upload a new build with the fix once OpenCore 0.6.7 is released in march.
 
 SD port is not working for me
 
-wake from sleep using bluetooth devices with BCM94360CS2 is not working.
+wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD
 
 
