@@ -116,6 +116,14 @@ Test time | 10.17 seconds
 Transferred bytes | 344.93 MB uploaded
 Speed | 284.61 Mbps
 
+
+#### BCM94360CS
+this is the Apple card which comes from the Macbook Pro, its 3x3 same , and is bigger than the 2x2 card, in order to fit the card you must make a small cut in the case after removing the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:3 link rate 1300 on Catalina and Big Sur
+
+![IMG_3582](https://user-images.githubusercontent.com/72950020/108794430-a389a200-757d-11eb-88a9-052b9151f2ca.jpg)
+
+
+
 ## Other
 
 Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/shutdown/reboot. however with the current build uploaded it will cause sleep issues ontop of this, i will upload a new build with the fix once OpenCore 0.6.7 is released in march.
