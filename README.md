@@ -28,6 +28,8 @@ Sniki - (https://github.com/Sniki/Lenovo-Thinkpad-T440P-Clover)
 
 I noticed that all Clover builds used FakeSMC and all OpenCore builds used VirtualSMC, personally i had some issues with VirtualSMC so i tried using FakeSMC with OpenCore and found it to work much better
 
+EDIT/NOTE : as of v0.3-beta1 these builds will be switching to VirtualSMC untill further notice, however the build remains unique in that it uses the ACPIbatterrymanager kext rather than SMCbattery manager, this allow the laptop to be used in clamshell mode without power.
+
 ## BIOS SETTINGS 
 
 The bios must be properly configured prior to installing MacOS.
@@ -133,10 +135,38 @@ Speed | 315.24 Mbps
 
 ## Other
 
+### Voltage Shift
+
+the kext is now built into the EFI as of v0.3-beta1, guide coming soon, my current settings here on a 4710MQ
+
+CPU voltage offset: -70mv
+GPU voltage offset: -70mv
+CPU Cache voltage offset: -70mv
+System Agency offset: -70mv
+Analogy I/O: -70mv
+Digital I/O: -70mv
+CPU BaseFreq: 2500, CPU MaxFreq(1/2/4): 3500/3400/3300 (mhz)  PL1: 55W PL2: 80W 
+CPU Freq: 2.5ghz, Voltage: 0.7955v, Power:pkg 18.74w /core 8.73w,Temp: 54 c
+Connor@Connors-MBP voltageshift % 
+
+### YogaSMC 
+
+Yoga SMC is now partially working as of v0.3-beta1, fan control is working but i can't get DYTC to work, if anyone can help feel free to open an issue
+
+more detailed guide coming soon
+
+### Dock
+
 Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/shutdown/reboot. however with the current build uploaded it will cause sleep issues ontop of this, i will upload a new build with the fix once OpenCore 0.6.7 is released in march.
+
+### SD
 
 SD port is not working for me
 
-wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD
+### Sleep
+
+sleep wake works as normal with no dock, with dock wake from USB devices will not work or due to a ACPI patch that needs to be applied to stop it from constantly waking with the dock, currently an explanation for this is on the v0.2beta1 release page but i will move it here shortly. 
+
+wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD DOES NOT, and will nto work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth however it can be a pain to get working.
 
 
