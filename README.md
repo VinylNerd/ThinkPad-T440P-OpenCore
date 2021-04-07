@@ -3,6 +3,8 @@
 
 ## Intro and Links
 
+CURRENT RELEASE - v0.3-beta1
+
 Hello, in October 2020 I aquired a ThinkPad T440P to use as my daily driver.
 
 I got the idea to get T440P from Sebi's Random Tech channel on Youtube (https://www.youtube.com/user/SebisGameReviews).
