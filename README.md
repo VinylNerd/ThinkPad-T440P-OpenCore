@@ -164,7 +164,13 @@ Connor@Connors-MBP voltageshift %
 
 Yoga SMC is now partially working as of v0.3-beta1, fan control is working but i can't get DYTC to work, if anyone can help feel free to open an issue
 
-more detailed guide coming soon
+to download go here - https://github.com/zhen-zen/YogaSMC/releases
+
+all you need to download is YogaSMC-App-Release.dmg
+
+once downloaded place in applications folder, to enable control of fan down to stopped go into preferences>think>allowfanstop
+
+any questions or issues please create a ticket
 
 ### Dock
 
@@ -172,7 +178,7 @@ Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/sh
 
 ### SD
 
-SD port is not working for me
+SD port is not working for me, working fine in windows tho.
 
 ### Sleep
 
