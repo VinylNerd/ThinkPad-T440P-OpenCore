@@ -139,7 +139,16 @@ Speed | 315.24 Mbps
 
 ### Voltage Shift
 
-the kext is now built into the EFI as of v0.3-beta1, guide coming soon, my current settings here on a 4710MQ
+to use voltage shift you must first download it here https://github.com/sicreative/VoltageShift 
+once downloaded unpack the 1.25 version.
+
+inside this there will be a voltageshift.exec file, this is all you need, place this file wherever you want and execute the command from there, for example i have a folder named "voltageshift" in my documents folder with the exec file inside of it, so i open terminal and type "cd Documents/voltageshift" and then you can play around with entering commands, but be careful
+
+if you wish to skip toying and unlock your CPU for its max potential i recomend running this command
+
+"sudo ./voltageshift buildlaunchd -70 -70 -70 -70 -70 -70 1 55 80 1 160"
+
+it will yeild this results automatically everytime upon boot
 
 CPU voltage offset: -70mv
 GPU voltage offset: -70mv
