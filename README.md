@@ -4,7 +4,7 @@
 
 ## Intro and Links
 
-CURRENT RELEASE - v0.3-beta1
+CURRENT RELEASE - v0.3-beta2, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases/tag/v0.3-beta2
 
 Hello, in October 2020 I aquired a ThinkPad T440P to use as my daily driver.
 
