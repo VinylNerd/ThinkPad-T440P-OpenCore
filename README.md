@@ -5,7 +5,7 @@
 
 ## Intro and Links
 
-CURRENT RELEASE - v0.4-beta2, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases
+CURRENT RELEASE - v0.4-beta3, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases
 
 Hello, in October 2020 I aquired a ThinkPad T440P to use as my daily driver.
 
@@ -13,27 +13,7 @@ I got the idea to get T440P from Sebi's Random Tech channel on Youtube (https://
 
 I also learned alot about T440P and got the idea to hackintosh from Wolfgang's Channel (https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg).
 
-(i recomend checking both of these out if you are a T440P owner)
-
-On the first day I got the laptop I installed Catalina 10.15.7 with Clover using jloisel's guide (https://github.com/jloisel/t440p).
-
-After doing some research I wanted to try OpenCore so that i could use Big Sur, however I also wanted to see if i could improve performance and or functionality on Catalina.
-
-I also wanted to try all the other T440P builds around so i have tried alot.
-
-Swanux - https://github.com/swanux/t440p
-
-LighterEB - https://github.com/lighterEB/ThinkPad-T440p
-
-2000c43 - https://2000c43.com/blog/the-perfect-laptop
-
-Sniki - (https://github.com/Sniki/Lenovo-Thinkpad-T440P-Clover)   
-(https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-t440p-opencore-0-5-9.299277/)
-
-I noticed that all Clover builds used FakeSMC and all OpenCore builds used VirtualSMC, personally i had some issues with VirtualSMC so i tried using FakeSMC with OpenCore and found it to work much better
-
-EDIT/NOTE : as of v0.3-beta1 these builds will be switching to VirtualSMC untill further notice, however the build remains unique in that it uses the ACPIbatterrymanager kext rather than SMCbattery manager, this allow the laptop to be used in clamshell mode without power.
-
+I recomend checking both of these out if you are a T440P owner
 
 ## WHAT WORKS
 
@@ -144,7 +124,9 @@ Speed | 284.61 Mbps
 
 
 #### BCM94360CS
-this is the Apple card which comes from the Macbook Pro, its 3x3 same , and is bigger than the 2x2 card, in order to fit the card you must make a small cut in the case after removing the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:3 link rate 1300 on Catalina and Big Sur
+this is the Apple card which comes from the Macbook Pro, its 3x3 same , and is bigger than the 2x2 card, in order to fit the card you must make a small cut in the case after removing the bottom cover, which requires removing the keyboard and palmrest, however once done wifi does not require any extra kexts and works flawlessly with NSS:3 link rate 1300 on Catalina and Big Sur 
+
+*NOTE* THIS CARD WILL CAUSE WINDOWS REBOOTS TO HANG , i do not have any other cards to test if this is the case with them anymore but i can confirm its the case with this one, turning off bluetooth in bios fixes the issue but it more painful than just holding power button for 5 seconds and restarting which fixed it
 
 Status | Finished
 -- | --
@@ -154,6 +136,9 @@ Speed | 315.24 Mbps
 
 
 ![IMG_3582](https://user-images.githubusercontent.com/72950020/108794430-a389a200-757d-11eb-88a9-052b9151f2ca.jpg)
+
+#### BCM94360CS
+this is a 4.1/4.2 version of the BCM94360CS, this card has issues with bluetooth connection at UEFI / OpenCore level and HID proxy mode does not work, wit the BCM94360CS HID proxy mode does work, other than this there was no observed differences in the two cards
 
 
 
@@ -208,4 +193,13 @@ sleep wake works as normal with no dock, with dock wake from USB devices will no
 
 wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD DOES NOT, and will nto work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth however it can be a pain to get working.
 
+## RESOURCES
 
+Swanux - https://github.com/swanux/t440p
+
+LighterEB - https://github.com/lighterEB/ThinkPad-T440p
+
+2000c43 - https://2000c43.com/blog/the-perfect-laptop
+
+Sniki - (https://github.com/Sniki/Lenovo-Thinkpad-T440P-Clover)   
+(https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-t440p-opencore-0-5-9.299277/)
