@@ -75,17 +75,17 @@ If you already have MacOS installed, i recomend trying this EFI on a USB first, 
 
 If you don't have MacOS installed, we will cover how to install MacOS on your system.
 
-If you wish to dual boot please use another drive for windows and i suggest disabling the drive with MacOS on it in BIOS while using windows to avoid windows update messing with the EFI or other parts of MacOS
+If you wish to dual boot please use seperate hard drives for macOS and any other OS, if you do want to dualboot, understanding the "LauncherOption" setting is important.
 
 Follow this guide to learn how create a USB installer - https://www.macworld.co.uk/how-to/bootable-mac-installer-3575875/
 
 ### Copy EFI folder to USB
 
-Copy the content of the EFI folder provided here with your own Serial ETC on your USB flash drive EFI partition. The EFI partition is usually hidden. You can use OpenCore Configurator, Clover Configurator, and a few other tools to mount it)
+Copy the content of the EFI folder provided here with your own Serial ETC on your USB flash drive EFI partition. The EFI partition is usually hidden. You can use OpenCore Configurator, Clover Configurator, and a few other tools to mount it
 
 ### Install macOS
 
-Install macOS by booting on the USB key. It takes about 30min. The computer will restart multiple times. Make sure to select Install macOS ... each time. Once installed, choose to boot from local drive in Clover boot menu.
+Install macOS by booting on the USB key. It takes about 30min. The computer will restart multiple times. You may or may not need to manually click to continue the install or it may just go on its own.
 
 
 To finish the setup, you need to:
