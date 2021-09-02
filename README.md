@@ -97,7 +97,7 @@ You're done! Reboot and enjoy macOS on your Thinpad T440p.
 
 ## WIFI with T440P
 
-As someone who has worked doing Wi-Fi for hotels i'm fairly picky about the quality of my wireless. this current build does not include and kexts for other wirless cards as im using apple wireless card, you will need to add your own kexts for these cards, i recomend learning more here - https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom
+As someone who works in network IT i'm fairly picky about the quality of my wireless. this current build does not include and kexts for other wirless cards as im using apple wireless card, you will need to add your own kexts for these cards, i recomend learning more here - https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom
 
 #### 7260NGW
 When i first got the T440P it had Intel 7260NGW 2x2 AC Card which i was able to make work with Wifi and Bluetooth. however the Wifi was not good, 2.4GHz was working but not properly, 5GHz was barely working, bluetooth worked but airdrop did not.
