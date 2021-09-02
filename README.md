@@ -138,7 +138,7 @@ Speed | 315.24 Mbps
 
 ![IMG_3582](https://user-images.githubusercontent.com/72950020/108794430-a389a200-757d-11eb-88a9-052b9151f2ca.jpg)
 
-#### BCM94360CS
+#### BCM943602CS
 this is a 4.1/4.2 version of the BCM94360CS, this card has issues with bluetooth connection at UEFI / OpenCore level and HID proxy mode does not work, wit the BCM94360CS HID proxy mode does work, other than this there was no observed differences in the two cards
 
 
