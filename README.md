@@ -60,7 +60,7 @@ Now you can go through the install.
 using GenSMBIOS (https://github.com/corpnewt/GenSMBIOS)
 generate a serial for MacBookPro11,1
 
- I advise against 11,2 as the usb mapping is slightly different.
+ I advise against 11,2 as the usb mapping is slightly different. as me move to Monteray 12,1 will be the only option for SMBIOS
 
 use Plist edit pro, or something else to manually enter the details in the config where it sais YOUR STUFF HERE (as shown in photo) SystemSerialNumber, MLB, and UUID
 
