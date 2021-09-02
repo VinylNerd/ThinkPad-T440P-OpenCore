@@ -93,7 +93,7 @@ To finish the setup, you need to:
 
 Copy EFI folder from USB flash drive to local drive EFI partition (like you did for the USB drive). It will make the local drive bootable (so you can get ride of the USB drive now),
 
-You're done! Reboot and enjoy macOS on your Thinpad T440p.
+You're done! Reboot and enjoy macOS on your Thinkpad T440p.
 
 ## WIFI with T440P
 
