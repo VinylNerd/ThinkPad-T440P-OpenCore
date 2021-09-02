@@ -34,6 +34,28 @@ I noticed that all Clover builds used FakeSMC and all OpenCore builds used Virtu
 
 EDIT/NOTE : as of v0.3-beta1 these builds will be switching to VirtualSMC untill further notice, however the build remains unique in that it uses the ACPIbatterrymanager kext rather than SMCbattery manager, this allow the laptop to be used in clamshell mode without power.
 
+
+## WHAT WORKS
+
+- Power management/sleep
+- Brightness/Volume Control
+- Battery Information
+- Audio : from internal speaker and headphone jack
+    USB Ports, Built-in Camera
+    Graphics Acceleration
+    FaceTime/iMessage
+    DVD Drive
+    Automatic OS updates
+    Trackpoint/Touchpad (gestures and scrolling included)
+    Dock USB ports
+    Dock DisplayPorts, HDMI, DVI and VGA
+
+Known problems
+
+    Ultra Dock problems (sleep/shutdown causes kernel panic and reboot when docked, also audio jack broken
+    Automatic switching between internal and external speakers through jack (need to switch manually)
+
+
 ## BIOS SETTINGS 
 
 The bios must be properly configured prior to installing MacOS.
