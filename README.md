@@ -32,7 +32,8 @@ I recomend checking both of these out if you are a T440P owner
 
 Known problems
 
-- Ultra Dock problems (sleep/shutdown causes kernel panic and reboot when docked, also audio jack broken
+- Ultra Dock problems (when using external display connected to dock sleep/shutdown causes kernel panic and reboot, audio jack also not working)
+
 
 ## BIOS SETTINGS 
 
