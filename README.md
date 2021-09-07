@@ -191,7 +191,9 @@ SD port is not working for me, working fine in windows tho.
 
 ### Sleep
 
-sleep wake works as normal with no dock, with dock wake from USB devices will not work or due to a ACPI patch that needs to be applied to stop it from constantly waking with the dock, currently an explanation for this is on the v0.2beta1 release page but i will move it here shortly. 
+sleep wake works as normal with no dock, with dock wake from USB devices will not work or due to a ACPI patch that needs to be applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb make sure to enable this acpi patch shown here
+
+![Screen Shot 2021-03-13 at 1 12 31 AM](https://user-images.githubusercontent.com/72950020/111014046-d57e6f00-8399-11eb-8aec-09039d950fa4.png)
 
 wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD DOES NOT, and will nto work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth however it can be a pain to get working.
 
