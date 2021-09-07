@@ -13,7 +13,7 @@ I got the idea to get T440P from Sebi's Random Tech channel on Youtube (https://
 
 I also learned alot about T440P and got the idea to hackintosh from Wolfgang's Channel (https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg).
 
-I recomend checking both of these out if you are a T440P owner
+I recommend checking both of these out if you are a T440P owner
 
 ## WHAT WORKS
 
