@@ -29,6 +29,7 @@ I recomend checking both of these out if you are a T440P owner
 - Trackpoint/Touchpad (gestures and scrolling included)
 - Dock USB ports
 - Dock DisplayPorts, HDMI, DVI and VGA
+- Build-in SD Card Reader
 
 Known problems
 
