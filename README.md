@@ -68,7 +68,7 @@ use Plist edit pro, or something else to manually enter the details in the confi
 
 ![Screen Shot 2021-02-02 at 5 41 49 PM](https://user-images.githubusercontent.com/72950020/106641108-bf051c80-657e-11eb-931e-d454f765175a.png)
 
-You should also edit your ROM to match the MAC address of your ethernet adapter, as per the opencore guide, however i personally am not sure if it matters.
+You should also edit your ROM to match the MAC address of your ethernet adapter as per the opencore guide, however i personally am not sure if it matters.
 
 ## CREATING YOUR INSTALLER USB, OR USING THIS EFI
 
