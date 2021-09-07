@@ -38,7 +38,7 @@ Known problems
 
 ## BIOS SETTINGS 
 
-The bios must be properly configured prior to installing MacOS.
+The BIOS must be properly configured prior to installing macOS.
 
 In Security menu, set the following settings:
 
