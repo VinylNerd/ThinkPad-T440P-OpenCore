@@ -191,7 +191,7 @@ SD port is not working for me, working fine in windows tho.
 
 ### Sleep
 
-sleep wake works as normal with no dock, with dock wake from USB devices will not work or due to a ACPI patch that needs to be applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb make sure to enable this acpi patch shown here
+sleep wake works as normal with no dock, with dock wake from USB devices will not work or due to a ACPI patch that needs to be applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb make sure to enable this acpi patch shown here (the only one which is not enabled)
 
 ![Screen Shot 2021-03-13 at 1 12 31 AM](https://user-images.githubusercontent.com/72950020/111014046-d57e6f00-8399-11eb-8aec-09039d950fa4.png)
 
