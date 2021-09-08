@@ -1,13 +1,8 @@
 # ThinkPad T440P Hackintosh OpenCore
+### CURRENT RELEASE - v0.5-beta1, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases
+
 ![IMG_2865](https://user-images.githubusercontent.com/72950020/115569903-8f300000-a2b5-11eb-9c69-2be2cab4b6a5.JPG)
 ![Screen Shot 2021-08-18 at 10 35 35 PM](https://user-images.githubusercontent.com/72950020/129975519-458d495a-3035-4457-b27a-8a8e9c0f0cdb.png)
-
-
-
-
-CURRENT RELEASE - v0.5-beta1, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases
-
-
 
 
 ## WHAT WORKS
