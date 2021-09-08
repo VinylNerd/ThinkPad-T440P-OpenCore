@@ -205,5 +205,6 @@ LighterEB - https://github.com/lighterEB/ThinkPad-T440p
 
 2000c43 - https://2000c43.com/blog/the-perfect-laptop
 
-Sniki - (https://github.com/Sniki/Lenovo-Thinkpad-T440P-Clover)   
-(https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-t440p-opencore-0-5-9.299277/)
+Sniki - (https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-t440p-opencore-0-5-9.299277/)
+
+Valnoxy - https://github.com/valnoxy/t440p-oc
