@@ -3,17 +3,12 @@
 ![Screen Shot 2021-08-18 at 10 35 35 PM](https://user-images.githubusercontent.com/72950020/129975519-458d495a-3035-4457-b27a-8a8e9c0f0cdb.png)
 
 
-## Intro and Links
+
 
 CURRENT RELEASE - v0.5-beta1, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases
 
-Hello, in October 2020 I aquired a ThinkPad T440P to use as my daily driver.
 
-I got the idea to get T440P from Sebi's Random Tech channel on Youtube (https://www.youtube.com/user/SebisGameReviews).
 
-I also learned alot about T440P and got the idea to hackintosh from Wolfgang's Channel (https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg).
-
-I recommend checking both of these out if you are a T440P owner
 
 ## WHAT WORKS
 
@@ -208,3 +203,7 @@ LighterEB - https://github.com/lighterEB/ThinkPad-T440p
 Sniki - (https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-t440p-opencore-0-5-9.299277/)
 
 Valnoxy - https://github.com/valnoxy/t440p-oc
+
+Sebi's Random Tech channel on Youtube (https://www.youtube.com/user/SebisGameReviews).
+
+Wolfgang's Channel (https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg).
