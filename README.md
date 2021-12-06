@@ -2,7 +2,7 @@
 ### CURRENT RELEASE - v0.5-beta2, see releases page for older releases here - https://github.com/VinylNerd/ThinkPad-T440P-OpenCore/releases
 
 ![IMG_2865](https://user-images.githubusercontent.com/72950020/115569903-8f300000-a2b5-11eb-9c69-2be2cab4b6a5.JPG)
-![Screen Shot 2021-08-18 at 10 35 35 PM](https://user-images.githubusercontent.com/72950020/129975519-458d495a-3035-4457-b27a-8a8e9c0f0cdb.png)
+![Screen Shot 2021-12-06 at 4 25 26 PM](https://user-images.githubusercontent.com/72950020/144883860-6b0aef21-16df-4d71-8fda-54d7f9b428f8.png)
 
 
 ## WHAT WORKS
@@ -16,7 +16,7 @@
 - FaceTime/iMessage
 - DVD Drive
 - Automatic OS updates
-- Trackpoint/Touchpad (gestures and scrolling included)
+- Trackpoint/Touchpad (gestures and scrolling only possible with Synaptics T450 trackpad)
 - Dock USB ports
 - Dock DisplayPorts, HDMI, DVI and VGA
 - Build-in SD Card Reader
