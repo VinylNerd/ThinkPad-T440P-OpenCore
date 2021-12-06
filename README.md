@@ -73,7 +73,7 @@ Follow this guide to learn how create a USB installer - https://www.macworld.co.
 
 ### Copy EFI folder to USB
 
-Copy the content of the EFI folder provided here with your own Serial ETC on your USB flash drive EFI partition. The EFI partition is usually hidden. You can use OpenCore Configurator, Clover Configurator, and a few other tools to mount it
+Copy the content of the EFI folder provided here with your own Serial ect. on your USB flash drive EFI partition. The EFI partition is usually hidden. You can use OpenCore Configurator, Clover Configurator, and a few other tools to mount it
 
 ### Install macOS
 
@@ -173,19 +173,15 @@ any questions or issues please create a ticket
 
 ### Dock
 
-Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/shutdown/reboot. however with the current build uploaded it will cause sleep issues ontop of this, i will upload a new build with the fix once OpenCore 0.6.7 is released in march.
-
-### SD
-
-SD port is not working for me, working fine in windows tho.
+Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/shutdown/reboot.
 
 ### Sleep
 
-sleep wake works as normal with no dock, with dock wake from USB devices will not work or due to a ACPI patch that needs to be applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb make sure to enable this acpi patch shown here (the only one which is not enabled)
+sleep wake works as normal with no dock, with dock, wake from USB devices will not work due to a ACPI patch that has been applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb devices, make sure to enable this acpi patch shown here (the only one which is not enabled)
 
 ![Screen Shot 2021-03-13 at 1 12 31 AM](https://user-images.githubusercontent.com/72950020/111014046-d57e6f00-8399-11eb-8aec-09039d950fa4.png)
 
-wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD DOES NOT, and will nto work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth however it can be a pain to get working.
+wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD does not, and will not work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth, however it can be a pain to get working.
 
 ## RESOURCES
 
