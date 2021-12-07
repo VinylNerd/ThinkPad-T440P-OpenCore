@@ -177,9 +177,10 @@ Dock is working for usb but using HDMI/DP/DVI/VGA causes kerel panic on sleep/sh
 
 ### Sleep
 
-sleep wake works as normal with no dock, with dock, wake from USB devices will not work due to a ACPI patch that has been applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb devices, make sure to enable this acpi patch shown here (the only one which is not enabled)
+sleep and wake works as normal with the dock, but wake from USB devices will not work due to a ACPI patch that has been applied to stop it from constantly waking with the dock, if you do not use dock and wish to enable wake from sleep with usb devices, make sure to disable this acpi patch listed in the bottom of ACPI>PATCH
 
-![Screen Shot 2021-03-13 at 1 12 31 AM](https://user-images.githubusercontent.com/72950020/111014046-d57e6f00-8399-11eb-8aec-09039d950fa4.png)
+Instant Wake Fix ( IGBE _PRW 0x0D, 0x04 to 0) 
+
 
 wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD does not, and will not work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth, however it can be a pain to get working.
 
