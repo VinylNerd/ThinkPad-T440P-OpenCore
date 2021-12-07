@@ -86,7 +86,7 @@ Copy EFI folder from USB flash drive to local drive EFI partition (like you did 
 
 You're done! Reboot and enjoy macOS on your Thinkpad T440p.
 
-## WIFI with T440P
+## WI-FI and Bluetooth options with T440P
 
 As someone who works in network IT i'm fairly picky about the quality of my wireless. this current build does not include and kexts for other wirless cards as im using apple wireless card, you will need to add your own kexts for these cards, i recomend learning more here - https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom
 
