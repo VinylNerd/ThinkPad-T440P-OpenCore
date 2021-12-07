@@ -86,9 +86,9 @@ Copy EFI folder from USB flash drive to local drive EFI partition (like you did 
 
 You're done! Reboot and enjoy macOS on your Thinkpad T440p.
 
-## WI-FI and Bluetooth options with T440P
+## WI-FI, Bluetooth, Airdrop, and Continuity
 
-As someone who works in network IT i'm fairly picky about the quality of my wireless. this current build does not include and kexts for other wirless cards as im using apple wireless card, you will need to add your own kexts for these cards, i recomend learning more here - https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom
+This current build does not include any kexts for other wirless cards. As im using apple wireless card, you will need to add your own kexts for these cards, i recomend learning more here - https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom
 
 #### 7260NGW
 When i first got the T440P it had Intel 7260NGW 2x2 AC Card which i was able to make work with Wifi and Bluetooth. however the Wifi was not good, 2.4GHz was working but not properly, 5GHz was barely working, bluetooth worked but airdrop did not.
