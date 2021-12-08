@@ -86,6 +86,25 @@ Copy EFI folder from USB flash drive to local drive EFI partition (like you did 
 
 You're done! Reboot and enjoy macOS on your Thinkpad T440p.
 
+### Getting Audio Working
+
+Switch from VoodooHDA to AppleALC - if you have never installed VoodooHDA skip steps 1 and 2
+
+1. Remove VoodooHDA.kext If its installed from Macintosh HD->Library->Extensions
+2. Remove VoodooHDA.prefPane by searching for preference panes and removing it, make sure to delete both from trash
+3. Place ALCPlugFix on Desktop
+4. Run these commands
+sudo spctl --master-disable
+sudo mkdir /usr/local/bin/
+cd Desktop/ALCPlugFix
+ALCPlugFix % chmod +x ./install.sh
+ALCPlugFix % ./install.sh
+
+and you should see
+
+Installing ALCPlugFix v1.7
+Done!
+
 ## WI-FI, Bluetooth, Airdrop, and Continuity
 
 This current build does not include any kexts for other wirless cards. As im using apple wireless card, you will need to add your own kexts for these cards, i recomend learning more here - https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom
