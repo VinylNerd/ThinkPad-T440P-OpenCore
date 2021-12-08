@@ -95,14 +95,19 @@ Switch from VoodooHDA to AppleALC - if you have never installed VoodooHDA skip s
 3. Place ALCPlugFix on Desktop
 4. Run these commands
 sudo spctl --master-disable
+
 sudo mkdir /usr/local/bin/
+
 cd Desktop/ALCPlugFix
+
 ALCPlugFix % chmod +x ./install.sh
+
 ALCPlugFix % ./install.sh
 
 and you should see
 
 Installing ALCPlugFix v1.7
+
 Done!
 
 ## WI-FI, Bluetooth, Airdrop, and Continuity
