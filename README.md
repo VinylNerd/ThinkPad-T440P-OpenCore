@@ -108,7 +108,8 @@ ALCPlugFix % ./install.sh
 and you should see
 
 Installing ALCPlugFix v1.7
- Done!
+
+Done!
 
 ## WI-FI, Bluetooth, Airdrop, and Continuity
 
