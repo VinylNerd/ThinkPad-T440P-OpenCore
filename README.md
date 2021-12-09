@@ -127,12 +127,12 @@ ALCPlugFix % chmod +x ./install.sh
 
 and this is what showed
 
-2021-12-09 16:00:50.916 ALCPlugFix[1706:85624] ALCPlugFix v1.7
-2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Found had-verb in work dir
-2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Headphones daemon running!
-2021-12-09 16:00:50.971 ALCPlugFix[1706:85624] Correctly added Audio Listener!
-2021-12-09 16:00:50.971 ALCPlugFix[1706:85624] Fixing...
-2021-12-09 16:00:50.992 ALCPlugFix[1706:85624] Performing periodical work
+2021-12-09 16:00:50.916 ALCPlugFix[1706:85624] ALCPlugFix v1.7 
+2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Found had-verb in work dir 
+2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Headphones daemon running! 
+2021-12-09 16:00:50.971 ALCPlugFix[1706:85624] Correctly added Audio Listener! 
+2021-12-09 16:00:50.971 ALCPlugFix[1706:85624] Fixing... 
+2021-12-09 16:00:50.992 ALCPlugFix[1706:85624] Performing periodical work 
 
 and it started working again, i will update this in the future when i better understand it
 
