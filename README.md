@@ -117,12 +117,16 @@ Done!
 
 NOTE: the first time i did installed it this is what worked, it seemed that the headphone jack noise came back so i ran these commands again 
 
-Connor@Connors-MBP-2 ~ % sudo spctl --master-disable
-Password:
-Connor@Connors-MBP-2 ~ % sudo mkdir /usr/local/bin/
-mkdir: /usr/local/bin/: File exists
-Connor@Connors-MBP-2 ~ % cd Desktop/ALCPlugFix
-Connor@Connors-MBP-2 ALCPlugFix % ALCPlugFix % chmod +x ./install.sh
+sudo spctl --master-disable
+
+sudo mkdir /usr/local/bin/
+
+cd Desktop/ALCPlugFix
+
+ALCPlugFix % chmod +x ./install.sh
+
+and this is what showed
+
 2021-12-09 16:00:50.916 ALCPlugFix[1706:85624] ALCPlugFix v1.7
 2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Found had-verb in work dir
 2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Headphones daemon running!
