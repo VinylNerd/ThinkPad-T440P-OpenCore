@@ -88,6 +88,8 @@ You're done! Reboot and enjoy macOS on your Thinkpad T440p.
 
 ### Getting Audio Working
 
+Your audio may work without this, but without this patch, you will definately have noise on the headphone jack
+
 Switch from VoodooHDA to AppleALC - if you have never installed VoodooHDA skip steps 1 and 2
 
 1. Remove VoodooHDA.kext If its installed from Macintosh HD->Library->Extensions
@@ -103,6 +105,8 @@ cd Desktop/ALCPlugFix
 
 ALCPlugFix % chmod +x ./install.sh
 
+if you dont, then type this command
+
 ALCPlugFix % ./install.sh
 
 and you should see
@@ -110,6 +114,23 @@ and you should see
 Installing ALCPlugFix v1.7
 
 Done!
+
+NOTE: the first time i did installed it this is what worked, it seemed that the headphone jack noise came back so i ran these commands again 
+
+Connor@Connors-MBP-2 ~ % sudo spctl --master-disable
+Password:
+Connor@Connors-MBP-2 ~ % sudo mkdir /usr/local/bin/
+mkdir: /usr/local/bin/: File exists
+Connor@Connors-MBP-2 ~ % cd Desktop/ALCPlugFix
+Connor@Connors-MBP-2 ALCPlugFix % ALCPlugFix % chmod +x ./install.sh
+2021-12-09 16:00:50.916 ALCPlugFix[1706:85624] ALCPlugFix v1.7
+2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Found had-verb in work dir
+2021-12-09 16:00:50.940 ALCPlugFix[1706:85624] Headphones daemon running!
+2021-12-09 16:00:50.971 ALCPlugFix[1706:85624] Correctly added Audio Listener!
+2021-12-09 16:00:50.971 ALCPlugFix[1706:85624] Fixing...
+2021-12-09 16:00:50.992 ALCPlugFix[1706:85624] Performing periodical work
+
+and it started working again, i will update this in the future when i better understand it
 
 ## WI-FI, Bluetooth, Airdrop, and Continuity
 
