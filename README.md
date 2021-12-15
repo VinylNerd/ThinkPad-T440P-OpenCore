@@ -52,7 +52,7 @@ Now you can go through the install.
 using GenSMBIOS (https://github.com/corpnewt/GenSMBIOS)
 generate a serial for MacBookPro11,1
 
- I advise against 11,2 as the usb mapping is slightly different. As we move to Monteray 12,1 will be the only option for SMBIOS
+ I advise against 11,2 as the usb mapping is slightly different. As we move to Monteray 11,4 will be the only option for SMBIOS
 
 use Plist edit pro, or something else to manually enter the details in the config where it sais YOUR STUFF HERE (as shown in photo) SystemSerialNumber, MLB, and UUID
 
@@ -224,6 +224,8 @@ Instant Wake Fix ( IGBE _PRW 0x0D, 0x04 to 0)
 
 
 wake from sleep using bluetooth devices with genuine apple wifi cards like BCM943602CS, BCM94360CS, BCM94360CS2, and BCM94360CD does not, and will not work AFAIK, please report if you have a different result, cards like the DW1560 can wake from sleep with bluetooth, however it can be a pain to get working.
+
+Thats it, your done, please let me know if you have any issues.
 
 ## RESOURCES
 
